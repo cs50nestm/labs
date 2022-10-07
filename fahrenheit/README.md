@@ -1,3 +1,8 @@
+---
+files: [fahrenheit.c]
+window: [terminal]
+---
+
 # Fahrenheit
 
 {% video https://www.youtube.com/watch?v=C5vk1APWxsk %}
