@@ -1,3 +1,8 @@
+---
+files: [isbn.c]
+window: [terminal]
+---
+
 # ISBN
 
 {% video https://www.youtube.com/watch?v=AJ9MFMQbhhw %}
