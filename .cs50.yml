@@ -1,6 +1,0 @@
-
-lab50:
-  files:
-    - !exclude "*"
-    - !include adventure.py
-    - !include pseudocode.txt
