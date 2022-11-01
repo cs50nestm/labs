@@ -1,5 +1,5 @@
 ---
-files: [initials.c]
+files: [initials.c, pseudocode.txt]
 window: [terminal]
 ---
 # Initials
@@ -92,7 +92,7 @@ Your program should behave per the examples below.
 
 ```
 $ ./initials
-Name:Zamyla Chan
+Name: Zamyla Chan
 Initials: ZC
 ```
 
