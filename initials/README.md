@@ -4,7 +4,7 @@ window: [terminal]
 ---
 # Initials
 
-{% video https://www.youtube.com/watch?time_continue=9&v=UItYCp0Ivqg %}
+{% video https://www.youtube.com/watch?v=UItYCp0Ivqg %}
 
 {% next %}
 
@@ -14,8 +14,8 @@ Implement a program that, given a person’s name, prints a person’s initials,
 
 ```
 $ ./initials
-Regulus Arcturus Black
-RAB
+Name: Regulus Arcturus Black
+Initials: RAB
 ```
 
 {% next %}
@@ -75,7 +75,8 @@ First, write in pseudocode.txt at right some pseudocode that implements this pro
 
 {% spoiler "Spoiler" %}
 
-1. Start out by using get_string("") to promts a user for a name.
+1. Start out by using get_string("Name: ") to promts a user for a name.
+1. Using printf, print out "Initials: ". 
 1. Print out the first character of the name as an upper case char.
 1. Then iterate through the remaining characters of the string.
     1. Does the char you are looking at tell you then next char is an initial? If so, print out the next char using upper case.
@@ -91,14 +92,14 @@ Your program should behave per the examples below.
 
 ```
 $ ./initials
-Zamyla Chan
-ZC
+Name:Zamyla Chan
+Initials: ZC
 ```
 
 ```
 $ ./initials
-robert thomas bowden
-RTB
+Name: robert thomas bowden
+Initials: RTB
 ```
 
 {% spoiler "Hints" %}
@@ -108,7 +109,7 @@ To iterate through a string, use a for loop like this:
 ```c
 for (int i = 0; i < strlen(s); i++)
 {
-  // do something
+    // do something
 }
 ```
 
@@ -117,7 +118,7 @@ for (int i = 0; i < strlen(s); i++)
 ## How to Check
 
 ```
-check50 cs50nestm/checks/2020/initials
+check50 cs50nestm/checks/2022/initials
 ```
 
 To check style:
@@ -128,10 +129,6 @@ style50 initials.c
 
 ## How to Submit
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
-
-```
-submit50 cs50nestm/checks/2020/initials
-```
+No need to submit! This is a practice problem. 
 
 
