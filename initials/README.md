@@ -1,3 +1,7 @@
+---
+files: [initials.c]
+window: [terminal]
+---
 # Initials
 
 {% video https://www.youtube.com/watch?time_continue=9&v=UItYCp0Ivqg %}
