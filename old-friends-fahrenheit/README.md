@@ -1,3 +1,8 @@
+---
+files: [fahrenheit.c]
+window: [terminal]
+---
+
 # Old Friends: Fahrenheit
 
 In Fahrenheit you were asked to write a program that asked the user for a temperature in Celsius (which they provided via get_float) and which then printed out the equivalent temperature on the Fahrenheit scale.
@@ -87,16 +92,10 @@ check50 cs50/problems/2019/ap/friends/fahrenheit
 
 ## How to Submit
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+Even thought this is a practice problem, please do submit to show you've completed this.
 
 ```
 submit50 cs50/problems/2019/ap/friends/fahrenheit
 ```
-## Style
-
-```
-style50 fahrenheit.c
-```
-
 
 
