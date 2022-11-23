@@ -98,15 +98,10 @@ check50 cs50/problems/2019/ap/friends/hello
 
 ## How to Submit
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+Even though this is a practice problem please do submit to show you've completed it.
 
 ```
 submit50 cs50/problems/2019/ap/friends/hello
-```
-## Style
-
-```
-style50 hello.c
 ```
 
 
