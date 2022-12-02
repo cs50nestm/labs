@@ -1,3 +1,8 @@
+---
+files: [calc.c]
+window: [terminal]
+---
+
 # Calc
 
 {% video https://www.youtube.com/watch?v=bcPPCgPPjDg&feature=youtu.be %}
