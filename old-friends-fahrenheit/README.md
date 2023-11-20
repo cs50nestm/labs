@@ -73,19 +73,20 @@ Remember how to get started? You'll have to change the main function to be able 
     </span>
   </summary>
   Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our main function. Instead of
+</details>
 
-<code>
+```c
 int main(void)
-</code>
+```
 
 if we start main off by typing
 
-<code>
+```c
 int main(int argc, string argv[])
-</code>
+```
 
 we then have access to two special variables that we can use inside of main. First is argc, which is an integer variable that tells us how many things the user typed in at the command line, and second is argv, which is an array of strings representing exactly what the user typed.
-</details>
+
 
 
 
