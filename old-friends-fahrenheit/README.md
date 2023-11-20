@@ -41,30 +41,54 @@ Because atof is declared in stdlib.h, you’ll want to #include that header file
 
 Here is Doug's short video on command-line arguments again in case you missed it in Old Friends: Hello!
 
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 30px;
+}
 
-{% video https://www.youtube.com/watch?v=AI6Ccfno6Pk %}
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
 
-{% next %}
+<div class="iframe_container">
+  <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/AI6Ccfno6Pk?si=nIteWlfkzUcaRLuV?modestbranding=0&amp;rel=0&amp;showinfo=0&amp;start=74" scrolling="no" id="iFrameResizer0" style="overflow: hidden;"></iframe>
+</div>
+
 
 Remember how to get started? You'll have to change the main function to be able to accept command line arguments.
 
-{% spoiler "Hints" %}
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Hints
+    </span>
+  </summary>
+  Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our main function. Instead of
 
-Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our main function. Instead of
-
-```c
+<code>
 int main(void)
-```
+</code>
 
 if we start main off by typing
 
-```c
+<code>
 int main(int argc, string argv[])
-```
+</code>
 
 we then have access to two special variables that we can use inside of main. First is argc, which is an integer variable that tells us how many things the user typed in at the command line, and second is argv, which is an array of strings representing exactly what the user typed.
+</details>
 
-{% endspoiler %}
+
+
 
 Remember how to check for the correct number of command line arguments?
 
